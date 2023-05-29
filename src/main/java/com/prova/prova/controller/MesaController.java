@@ -71,7 +71,7 @@ public class MesaController {
                 mesaExistente.setNumero(mesa.getNumero());
                 mesaExistente.setCapacidad(mesa.getCapacidad());
                 mesaExistente.setComentario(mesa.getComentario());
-                mesaExistente.setEstado(mesa.isEstado());
+                //mesaExistente.setEstado(mesa.isEstado());
 
                 mesaRepository.save(mesaExistente);
 

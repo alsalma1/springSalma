@@ -80,6 +80,7 @@ public class ReservaController {
 
                 // Mostrar la fecha con un día adicional
                 System.out.println("Fecha" + fechaMasUnDia);
+                reserva.setFecha(fechaMasUnDia);
 
                 LocalDate fecha = fechaMasUnDia;
                 LocalTime hora = reserva.getHora();
